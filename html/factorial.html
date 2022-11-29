@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <button type="button" onclick="document.getElementById('demo').innerHTML=fact(5)" >Click Me</button>
+        <p id="demo"></p>
+        <script type="text/javascript">
+            function fact(n){
+                if(n==0){
+                    return 1;
+                }
+                else{
+                    return n*fact(n-1);
+                }
+            }
+        </script>
+    </body>
+</html>
